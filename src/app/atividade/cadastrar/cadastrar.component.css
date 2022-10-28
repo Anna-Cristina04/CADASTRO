@@ -1,0 +1,23 @@
+.info {
+    padding-left: 20%;
+    padding-top: 2%;
+}
+input {
+    margin: 3px;
+    height: 25px;
+    width:  95%;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    margin-top: 25px;
+}
+
+form {
+    width: 700px;
+    background-color: rgb(188, 171, 214);
+    padding: 5%;
+    border-radius: 10px;
+}
+
