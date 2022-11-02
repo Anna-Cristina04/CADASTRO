@@ -1,0 +1,26 @@
+<div id="cadastros">
+    <table style="color: transparent;">
+        <thead>
+            <th class="email">Email</th>
+            <th class="nome">Nome</th>
+            <th class="estado">Estado</th>
+            <th class="cidade1">Cidade</th>
+            <th class="bairro">Bairro</th>
+            <th class="idade">Idade</th>
+            <th class="genero">Genero</th>
+            <th class="senha">Senha</th>
+            <th class="imagem">Imagem</th>
+        </thead>
+        <tbody *ngFor="let pessoa of pessoas" >
+            <td>{{pessoa.email}}</td>
+            <td>{{pessoa.nome}}</td>
+            <td>{{pessoa.estado}}</td>
+            <td>{{pessoa.cidade}}</td>
+            <td>{{pessoa.bairro}}</td>
+            <td>{{pessoa.idade}}</td> 
+            <td>{{pessoa.genero}}</td>
+            <td>{{pessoa.senha}}</td>
+            <td><img src='{{pessoa.imagem}}' width="80" height="80"></td>
+        </tbody>
+    </table>
+</div>

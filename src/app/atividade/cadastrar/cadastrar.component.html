@@ -8,16 +8,17 @@
 <body>
     <div class ="info">
         <form action="">
-            <input type="text" placeholder="Nome" [(ngModel)]="nome">
-            <input type="text" placeholder="Email"  [(ngModel)]="email">
-            <input type="password" placeholder="Senha"  [(ngModel)]="senha">
-            <input type="text" placeholder="Estado"  [(ngModel)]="estado">
-            <input type="text" placeholder="Cidade"  [(ngModel)]="cidade">
-            <input type="text" placeholder="Bairro"  [(ngModel)]="bairro">
-            <input type="text" placeholder="Gênero"  [(ngModel)]="genero">
-            <input type="text" placeholder="Idade"  [(ngModel)]="idade">
-            <button>Enviar</button>
+            <input type="text" placeholder="Nome" [(ngModel)]="nome" name="nome">
+            <input type="text" placeholder="Email"  [(ngModel)]="email"  name="email">
+            <input type="password" placeholder="Senha"  [(ngModel)]="senha"  name="senha">
+            <input type="text" placeholder="Estado"  [(ngModel)]="estado" name="estado" >
+            <input type="text" placeholder="Cidade"  [(ngModel)]="cidade" name="cidade" >
+            <input type="text" placeholder="Bairro"  [(ngModel)]="bairro" name="bairro">
+            <input type="text" placeholder="Gênero"  [(ngModel)]="genero" name="genero" >
+            <input type="text" placeholder="Idade"  [(ngModel)]="idade"  name="idade">
+            <input type="text" placeholder="Link" [(ngModel)]="imagem" name="imagem">
         </form>
+        <input type="submit" class="enviar" (click)="craftingTable()">
     </div>
 </body>
 </html>

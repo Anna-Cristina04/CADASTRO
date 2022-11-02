@@ -1,0 +1,52 @@
+ table, th, td {
+        border: 1px solid;
+        margin-top: 2%;
+        color: rgb(171, 138, 221);
+        padding-left: 3%;
+        padding-right: 3%;
+
+}
+
+.email {
+    width: 6%;
+   
+}
+
+.nome {
+    width: 6%;
+
+}
+
+.estado {
+    width: 6%;
+    
+}
+
+.cidade1 {
+    width: 6%;
+  
+}
+
+.bairro {
+    width: 6%;
+    
+}
+
+.idade {
+    width: 6%;
+    
+}
+
+.genero {
+    width: 6%;
+   
+}
+
+.senha {
+    width: 6%;
+    
+}
+.imagem {
+    width: 6%;
+    
+}

@@ -6,7 +6,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { HomeModule } from './atividade/home/home.module';
 import { CadastrarModule } from './atividade/cadastrar/cadastrar.module';
 import { ConsultarModule } from './atividade/consultar/consultar.module';
-import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -15,7 +14,6 @@ import { FormsModule } from '@angular/forms';
   ],
   imports: [
     AppRoutingModule,
-    FormsModule,
     BrowserModule,
     HomeModule,
     CadastrarModule,
